@@ -41,9 +41,10 @@
 	<bean id="listableProviderFactory" class="com.yiqiniu.easytrans.provider.factory.DefaultListableProviderFactory"></bean>
 	
 	<!-- queue setting -->
-	<bean class="com.yiqiniu.easytrans.queue.impl.ons.AliYunOnsHelper"></bean>
-	<bean id="easyTransMsgPublisher" class="com.yiqiniu.easytrans.queue.impl.ons.OnsEasyTransMsgPublisherImpl"></bean>
-	<bean id="easyTransMsgConsumer" class="com.yiqiniu.easytrans.queue.impl.ons.OnsEasyTransMsgConsumerImpl"></bean>
+	<!-- 
+	<bean class="com.yiqiniu.easytrans.queue.impl.ons.AliYunOnsHelper"></bean> -->
+	<bean id="easyTransMsgPublisher" class="com.yiqiniu.easytrans.queue.impl.ons.RocketmqEasyTransMsgPublisherImpl"></bean>
+	<bean id="easyTransMsgConsumer" class="com.yiqiniu.easytrans.queue.impl.ons.RocketmqEasyTransMsgConsumerImpl"></bean>
 	
 	<bean id="easyTransRpcClient" class="com.yiqiniu.easytrans.rpc.impl.dubbo.DubboEasyTransRpcConsumerImpl"></bean>
 	<bean id="easyTransRpcProvider" class="com.yiqiniu.easytrans.rpc.impl.dubbo.DubboEasyTransRpcProviderImpl"></bean>
