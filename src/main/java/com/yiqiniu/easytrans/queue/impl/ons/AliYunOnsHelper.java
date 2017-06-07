@@ -1,4 +1,4 @@
-package com.yiqiniu.easytrans.queue.impl.ons;
+/*package com.yiqiniu.easytrans.queue.impl.ons;
 
 import java.util.Properties;
 
@@ -65,3 +65,4 @@ public class AliYunOnsHelper {
 	
 
 }
+*/

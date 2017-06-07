@@ -1,4 +1,4 @@
-/*package com.yiqiniu.easytrans.queue.impl.ons;
+package com.yiqiniu.easytrans.queue.impl.ons;
 
 import java.util.Properties;
 
@@ -14,7 +14,7 @@ import com.yiqiniu.easytrans.config.EasyTransConifg;
 import com.yiqiniu.easytrans.queue.producer.EasyTransMsgPublishResult;
 import com.yiqiniu.easytrans.queue.producer.EasyTransMsgPublisher;
 
-public class OnsEasyTransMsgPublisherImpl implements EasyTransMsgPublisher {
+public class RocketmqEasyTransMsgPublisherImpl implements EasyTransMsgPublisher {
 
 	private Producer producer;
 	
@@ -43,4 +43,3 @@ public class OnsEasyTransMsgPublisherImpl implements EasyTransMsgPublisher {
 	}
 
 }
-*/
